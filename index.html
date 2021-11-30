@@ -3,28 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Quiz Mitologia Grega</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-<body>
+    </head>
+    <body>
   	  <h1>Quiz Mitologia Grega</h1>
-      <article class='centro' id='instrucoes'>
-        Leia a questão e clique na resposta correta
-        </article>
-       <article class= 'questoes'>
-         <header class='questao'>
-           <span id='numQuestao'></span>
-           <h2 id='pergunta'></h2>
-           </header>
-         <div class=-'corpo'>
-           <ol type='A' id='alternativas'>
-             <li id='a' valua='1A' class='respostas' onCLick='verifcarSeAcertou(this, this)'></li>
-             <li id='b' valua='1B' class='respostas' onCLick='verifcarSeAcertou(this, this)'></li>
-             <li id='c' valua='1C' class='respostas' onCLick='verifcarSeAcertou(this, this)'></li>
-             </ol>
-           </div>
-         </article>
-    <script type="text/javascript" src="main.js">
+      <body>
+        	  	<form class="questions_box">
 
+        	  		<div id="question-1">
+        	  		  <h2>Questão 1</h2>
+        	  			<h3>Quais foram os três grandes deuses que derrotaram Cronos?</h3>
+        	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1> Apolo, Hermes e Hefesto<br>
+        				  <input id="question-1-answer-b" type="radio" name="favelang" value=2> Zeus, Hades e Poseidon<br>
+        				  <input id="question-1-answer-c" type="radio" name="favelang" value=3> Poseidon, Dioniso e Ares<br>
+        				  <div id="submit1" class="button">Enviar Resposta</div>
+                  <div class="clearfix"></div>
+        			  </div>
+
+        			 <div id="question-2">
+        				 <h2>Questão 2</h2>
+        				 <h3>Apolo, Dionísio e Ares são respectivamente deuses de quê?</h3>
+        	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Do Sol, do vinho e da terra.<br>
+        				 <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Da guerra, da sabedoria e do céu.<br>
+        				 <input id="question-2-answer-c" type="radio" name="favelang" value="3"> Do mar, dos mortos e do ar.<br>
+        				 <div id="submit2" class="button">Enviar Resposta</div>
+                 <div class="clearfix"></div>
+        			 </div>
+
+    <script type="text/javascript" src="main.js">
     </script>
     </head>
   </body>
