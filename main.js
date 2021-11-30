@@ -2,7 +2,7 @@ let titulo = document.querySelector ('h1')
 let instrucoes = document.querySelector ('#instrucoes')
 
 //PERGUNTA
-let numQuestaouestion = document.querySelector ('#numQuestao')
+let numQuestao = document.querySelector ('#numQuestao')
 let pergunta = document.querySelector ('#pergunta')
 
 //ALTERNATIVAS
