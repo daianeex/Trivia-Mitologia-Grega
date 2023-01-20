@@ -1,6 +1,6 @@
 # Trivia Mitologia Grega
 
-![Badge Refatorando](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Refatorando](http://img.shields.io/static/v1?label=STATUS&message=REFATORANDO...&color=GREEN&style=for-the-badge)
 
 Projeto Trivia sobre Mitologia Grega, criado para o processo seletivo para o Bootcamp da Laboratoria.
 
