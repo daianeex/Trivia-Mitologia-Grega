@@ -1,0 +1,30 @@
+{
+  "name": "trivia-mitologia-grega",
+  "version": "1.0.0",
+  "description": "![Badge Refatorando](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daianeex/Trivia-Mitologia-Grega.git"
+  },
+  "keywords": [
+    "Daianek3"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daianeex/Trivia-Mitologia-Grega/issues"
+  },
+  "homepage": "https://github.com/daianeex/Trivia-Mitologia-Grega#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
