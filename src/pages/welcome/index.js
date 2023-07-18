@@ -3,7 +3,7 @@ export default () => {
 
     const templateWelcome = `
     <div class="containerWel">
-    <img class="logo" src="../../imgs/imglogo.png" alt="Logo" />
+    <img src="../src/imgs/imglogo.png" >
         <h1 class="titleOne">Trivia</h1>
         <p class="titleTwo">Mitologia Grega</p>
         <button id="btnPrincipal">Entrar</button>

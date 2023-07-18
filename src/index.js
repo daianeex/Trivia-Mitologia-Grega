@@ -6,5 +6,5 @@ import result from "./pages/result/index.js";
 const main = document.querySelector('#root')
 
 window.addEventListener("load", () => {
-  main.appendChild(result());
+  main.appendChild(welcome());
 })
